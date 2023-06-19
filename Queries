@@ -1,0 +1,4 @@
+select name from students where age=18;
+select name from students order by name asc;
+select name from students where age=19 group by name;
+select rollno, name from students order by rollno desc;
