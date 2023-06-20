@@ -1,0 +1,20 @@
+create table student(st_id int, st_name varchar,dept varchar, st_age int);
+insert into student values(121, 'Maya', 'CSE', 20);
+insert into student values(122, 'Annie', 'ECE', 19);
+insert into student values(120, 'Rex', 'EEE', 21);
+select * from student;
+create table teacher(te_id int, te_name varchar, dept varchar);
+insert into teacher values(456, 'Sam', 'CSE');
+insert into teacher values(450, 'Leela', 'ECE');
+insert into teacher values(453, 'Rajini', 'EEE');
+insert into teacher values(458, 'Kamal', 'EEE');
+select * from teacher;
+
+select * from student inner join teacher on student.dept=teacher.dept;
+select * from student inner join  teacher on student.dept!=teacher.dept;
+
+select * from student left join teacher on student.dept=teacher.dept;
+select * from student left join  teacher on student.dept!=teacher.dept;
+
+select * from student right join teacher on student.dept=teacher.dept;
+select * from student right join  teacher on student.dept!=teacher.dept;
