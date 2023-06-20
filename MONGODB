@@ -1,0 +1,9 @@
+use secedb
+db.sececollection.insert({name:"Maya",id:1,})
+db.sececollection.insertMany([{name:"Ash",id:2},{name:"Sam", id:6}])
+db.sececollection.find()
+db.sececollection.updateOne({name:"Maya"},{$set:{id:5}});
+db.sececollection.find()
+db.sececollection.find({"name":"Maya"});
+db.sececollection.deleteOne({name:"Maya"});
+db.sececollection.find()
