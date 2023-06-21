@@ -1,0 +1,4 @@
+let s="  Hello All   ";
+console.log(s.trim());
+console.log(s.replace('l','z'));
+console.log(s.replaceAll('l','z'));
