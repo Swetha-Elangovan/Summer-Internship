@@ -1,0 +1,2 @@
+let names=["anie", "ben", "cis", "dee", "firoz"];
+console.log(names.slice(2,4));
