@@ -2,3 +2,8 @@ let s="  Hello All   ";
 console.log(s.trim());
 console.log(s.replace('l','z'));
 console.log(s.replaceAll('l','z'));
+
+let str3="sri eshwar college of engineering";
+console.log(str3.split(" "));
+console.log(str3.split(""));
+console.log(str3.split("r"));
