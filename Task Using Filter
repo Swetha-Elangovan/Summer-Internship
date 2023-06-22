@@ -1,0 +1,30 @@
+//array of objects
+let namesobj=[
+    {
+        name:"Samantha",
+        year:2000
+    },
+    {
+        name:"Trisha",
+        year:2003
+    },
+    {
+        name:"Nayanthara",
+        year:2006
+    },
+    {
+        name:"Ivana",
+        year: 2020
+
+    },
+    {
+        name:"Alia",
+        year: 2015
+    }
+]
+
+let ansnames = namesobj.filter(ele =>{
+    return ele.year>2005;
+})
+console.log(ansnames);
+
