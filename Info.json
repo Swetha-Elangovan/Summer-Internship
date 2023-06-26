@@ -1,0 +1,22 @@
+//Personal Info
+{
+    "Name":"Swetha",
+    "DOB":"07-03-2003",
+    "Age":20,
+    "Parents":{
+        "Father":"Elangovan",
+        "Mother":"Maheswari"
+    },
+    "Education":{
+        "School":"Oxford Matriculation Higher Secondary School",
+        "College":"Sri Eshwar College of Engineering",
+        "Course":"Bachelor of Engineering"
+    },
+    "Address":{
+        "Village":"N.G.Pudhur",
+        "Post":"Virugalpatti",
+        "Taluk":"Udumalai",
+        "District":"Tiruppur",
+        "State":"Tamil Nadu"
+    }
+}
